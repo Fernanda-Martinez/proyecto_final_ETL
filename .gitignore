@@ -13,3 +13,5 @@ venv/
 
 # VSCode
 .vscode/
+
+*.xlsx
