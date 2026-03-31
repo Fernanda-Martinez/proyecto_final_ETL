@@ -7,7 +7,8 @@ from pathlib import Path
 API_URL = "https://www.datos.gov.co/resource/2bk8-65js.json"
 
 # Ruta para guardar los datos extraídos en formato excel
-RAW_PATH = Path("../PROYECTO_FINAL_ETL/data/raw/datos_mortalidad_transito_raw.xlsx")
+BASE_PATH = Path().absolute()
+RAW_PATH = BASE_PATH / "data" / "raw" / "datos_mortalidad_transito_raw.xlsx"
 
 
 def extract_data():
